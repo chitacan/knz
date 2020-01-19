@@ -1,0 +1,25 @@
+{
+  "name": "knz",
+  "version": "0.0.1",
+  "description": "show & open kanbanize task on your terminal",
+  "author": "Kyungyeol Kim <chitacan@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "knz": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "conf": "^6.2.0",
+    "execa": "^4.0.0",
+    "got": "^10.2.2",
+    "inquirer": "^7.0.3",
+    "open": "^7.0.0",
+    "timeago.js": "^4.0.2"
+  }
+}
